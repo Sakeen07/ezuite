@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 20px;
+    background: linear-gradient(to right, #19B6F6, #082274);
+    color: #fff;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  
+  .header-center {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .header-right > .user-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #082274;
+
+  }
+  

@@ -1,0 +1,23 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    width: 70px;
+    background: linear-gradient(to bottom, #082274 ,#19B6F6);
+    color: #fff;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 8px 0;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .sidebar ul li p{
+    font-size: 10px;
+    text-align: center;
+  }
+  
